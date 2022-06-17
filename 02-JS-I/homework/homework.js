@@ -1,10 +1,17 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
+<<<<<<< HEAD
 const nuevaString = "jimy";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 5431;
+=======
+const nuevaString = "pablo";
+
+// Crea una variable numérica, puede ser cualquier número:
+const nuevoNum = 22;
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 
 // Crea una variable booleana:
 const nuevoBool = true;
@@ -16,7 +23,11 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
+<<<<<<< HEAD
 const nuevoModulo = 21 % 5 === 1;
+=======
+const nuevoModulo = 21 % 5 === 4;
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -29,7 +40,11 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
   return str;
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function suma(x, y) {
@@ -37,44 +52,76 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
   return x + y;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+<<<<<<< HEAD
   return x - y;
+=======
+  return y - x;
+  
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   return x * y;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   return x / y;
+<<<<<<< HEAD
+=======
+
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
   if(x === y) {
     return true;
   }
   else return false;
+=======
+  if (x == y) {
+    return true;
+  }
+  else (x != y) 
+    return false;
+  
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
   if (str1.length === str2.length) {
     return true;
   } else return false;
 }
+=======
+  return str1.length === str2.length;
+  
+  }
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -82,7 +129,13 @@ function menosQueNoventa(num) {
   // Tu código:
   if (num < 90) {
     return true;
+<<<<<<< HEAD
   } else return false;
+=======
+}
+return false;
+  
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function mayorQueCincuenta(num) {
@@ -91,8 +144,13 @@ function mayorQueCincuenta(num) {
   // Tu código:
   if (num > 50) {
     return true;
+<<<<<<< HEAD
   } else return false;
   
+=======
+}
+return false;
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function obtenerResto(x, y) {
@@ -106,40 +164,66 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
 
   if (num % 2 === 0) {
     return true;
   } else return false;
   
+=======
+  if (num % 2 == 0) {
+    return true;
+  } else 
+  return false;
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
   
   if (num % 2 !== 0) {
     return true;
   } else return false;
+=======
+  if (num % 2 != 0) {
+    return true;
+  } else 
+  return false;
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+<<<<<<< HEAD
   return num ** 2;
+=======
+  return Math.pow(num, 2);
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+<<<<<<< HEAD
   return num ** 3;
+=======
+  return Math.pow(num, 3);
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
+<<<<<<< HEAD
   return num ** exponent;
+=======
+  return Math.pow(num, exponent);
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function redondearNumero(num) {
@@ -194,7 +278,11 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
+<<<<<<< HEAD
   return "Hola " + nombre + "!";
+=======
+  return "hola " + nombre + "!";
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -214,7 +302,11 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
+<<<<<<< HEAD
   return (base * altura)/ 2;
+=======
+return (base * altura)/2;
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 
 }
 
@@ -223,7 +315,11 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
+<<<<<<< HEAD
   return euro * 1.20;
+=======
+  return euro * 1.2;
+>>>>>>> e651ea88297884065e4d906371ba9d6cc74858ba
 }
 
 
